@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomsa Mchunu - Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <div class="logo">Nomsa Mchunu</div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h1>Hi, I'm Nomsa Mchunu</h1>
+    <p>Aspiring Data Analyst</p>
+    <img src="images/myself.jpg" alt="Nomsa Mchunu" class="profile-pic">
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Analytical and detail-oriented ICT graduate with hands-on experience in data analysis, database management, and programming. Proficient in Python, SQL, Excel, Power BI, and familiar with machine learning and cloud computing. Experienced in extracting, cleaning, and analyzing data to generate actionable insights and support decision-making. Strong problem-solving skills, attention to detail, and a proactive, results-driven mindset. Eager to contribute to a collaborative team environment and develop expertise in markets.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill"><img src="images/python.png" alt="Python" class="skill-icon"><span>Python</span></div>
+      <div class="skill"><img src="images/c-sharp.png" alt="C#" class="skill-icon"><span>C#</span></div>
+       <div class="skill"><img src="images/java.png" alt="Java" class="skill-icon"><span>Java</span></div>
+      <div class="skill"><img src="images/html.png" alt="HTML" class="skill-icon"><span>HTML</span></div>
+      <div class="skill"><img src="images/css-3.png" alt="CSS" class="skill-icon"><span>CSS</span></div>
+      <div class="skill"><img src="images/js.png" alt="JavaScript" class="skill-icon"><span>JavaScript</span></div>
+    </div>
+  </section>
+
+  <!-- Core Data Analysis Skills -->
+  <section id="core-skills" class="section">
+    <div class="skills-container">
+      <div class="skill"><img src="images/machine-learning.png" alt="Machine Learning" class="skill-icon"><span>Machine Learning</span></div>
+      <div class="skill"><img src="images/excel.png" alt="Excel" class="skill-icon"><span>Excel</span></div>
+      <div class="skill"><img src="images/business-intelligence.png" alt="Power BI" class="skill-icon"><span>Power BI</span></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Student Performance Analysis</h3>
+        <p>Developed a system to analyze student grades, attendance, and overall performance using Python, SQL, and Excel. Visualized insights using Power BI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Section -->
+  <section id="experience" class="section">
+    <h2>Professional Experience</h2>
+    <div class="experience-entry">
+      <h3>Software Development Intern</h3>
+      <h4>JCI Durban, Nov 2024 - Present</h4>
+      <ul>
+        <li>Developed software solutions to enhance user experience and system performance.</li>
+        <li>Collaborated with cross-functional teams to gather requirements and implement features.</li>
+        <li>Conducted data analysis to identify trends and optimize processes.</li>
+        <li>Assisted in debugging and troubleshooting software issues to improve functionality.</li>
+        <li>Participated in code reviews and contributed to documentation for future reference.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="education-entry">
+      <h3>Honours in Information and Communication Technology (In Progress)</h3>
+      <h4>Durban University of Technology, Durban, South Africa – Expected 2026</h4>
+      <p>Currently gaining advanced knowledge in Machine Learning, Advanced Cybersecurity, Cloud Computing, Advanced Software Development, Professional Practice, and Research in ICT. Focused on applying analytical and technical skills to real-world ICT problems.</p>
+    </div>
+    <div class="education-entry">
+      <h3>Bachelor of Information and Communication Technology</h3>
+      <h4>Durban University of Technology, Durban, South Africa – Graduated 2024</h4>
+      <p>Gained knowledge in Machine Learning, Software Engineering, Database Management, Business Fundamentals, Statistics, Calculus, and Cybersecurity. Developed practical skills in Python, SQL, Excel, and data-driven problem solving.</p>
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section id="cv" class="section">
+    <h2>Curriculum Vitae</h2>
+    <p>Click the button below to download my full CV:</p>
+   <div class="home-buttons">
+      <a href="CV/NA_Mchunu_CV.pdf" class="btn" target="_blank">Download CV</a>
+      <a href="#cv" class="btn">View CV</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+      <p class="form-response"></p>
+    </form>
+  </section>
+  <div class="socials">
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  <!-- Footer -->
+  <footer class="section" style="text-align:center; background: lightskyblue; color:white; padding:20px;">
+  <p>&copy; 2025 Nomsa Mchunu | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
